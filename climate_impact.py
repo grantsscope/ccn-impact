@@ -44,3 +44,5 @@ fig.update_traces(textfont_size=20)
 
 # Display the figure in the Streamlit app
 st.plotly_chart(fig)
+
+st.link_button("About GrantsScope", "https://grantsscope.xyz",type="secondary")
