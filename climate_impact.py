@@ -16,7 +16,7 @@ with col2:
 st.markdown("Click into a round to drill-down and explore participating projects.")
 # Load your data
 # Ensure your CSV file path is correct. Replace 'path_to_file' with your file path.
-climate_data = pd.read_csv('./climate-impact/Climate_Impact.csv')
+climate_data = pd.read_csv('./Climate_Impact.csv')
 
 # Define non-linear bins due to the power-law distribution
 # Adjust these based on the distribution of your specific data
