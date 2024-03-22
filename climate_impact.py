@@ -40,7 +40,7 @@ fig = px.treemap(climate_data,
                  height=1000)  # Specify the height here
 
 
-fig.update_traces(textfont_size=20)
+fig.update_traces(textfont_size=20, use_container_width=True)
 
 # Display the figure in the Streamlit app
 st.plotly_chart(fig)
